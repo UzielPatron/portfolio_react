@@ -1,33 +1,36 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
+import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './About.scss';
 
-export const About = () => {
-  const abouts = [
-    {
-      title: 'FrontEnd Development',
-      description: 'I am a good FrontEnd Developer',
-      imgUrl: images.about01
-    },
-    {
-      title: 'Web Design',
-      description: 'I am a good FrontEnd Developer',
-      imgUrl: images.about02
-    },
-    {
-      title: 'UI/UX',
-      description: 'I am a good FrontEnd Developer',
-      imgUrl: images.about03
-    },
-    {
-      title: 'Web Animations',
-      description: 'I am a good FrontEnd Developer',
-      imgUrl: images.about04
-    },
+const abouts = [
+  {
+    title: 'FrontEnd Development',
+    description: 'I am a good FrontEnd Developer',
+    imgUrl: images.about01
+  },
+  {
+    title: 'Web Design',
+    description: 'I am a good FrontEnd Developer',
+    imgUrl: images.about02
+  },
+  {
+    title: 'UI/UX',
+    description: 'I am a good FrontEnd Developer',
+    imgUrl: images.about03
+  },
+  {
+    title: 'Web Animations',
+    description: 'I am a good FrontEnd Developer',
+    imgUrl: images.about04
+  },
 ] 
-  
+
+
+const About = () => {
+
   return (
     <>
       <h2 className="head-text">
@@ -58,3 +61,5 @@ export const About = () => {
     </>
   )
 }
+
+export default AppWrap(About, 'about')
