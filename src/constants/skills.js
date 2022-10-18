@@ -13,57 +13,57 @@ import mongoDB from '../assets/mongoDB.png';
 const skills = [
   {
     name: 'Html',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: html,
   },
   {
     name: 'CSS',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: css,
   },
   {
     name: 'JavaScript',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: javascript,
   },
   {
     name: 'React',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: react,
   },
   {
     name: 'TypeScript',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: typescript,
   },
   {
     name: 'Redux',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: redux,
   },
   {
     name: 'SASS',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: sass,
   },
   {
     name: 'React Native',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: reactNative,
   },
   {
     name: 'Git',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: git,
   },
   {
     name: 'Node',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: node,
   },
   {
     name: 'MongoDB',
-    bgColor: '',
+    bgColor: '#edf2f8',
     icon: mongoDB,
   },
 ];
