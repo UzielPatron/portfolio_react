@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -8,25 +8,25 @@ import './About.scss';
 const abouts = [
   {
     title: 'FrontEnd Development',
-    description: 'I am a good FrontEnd Developer',
+    description: 'I love frontend development and expanding my knowledge especially in React.JS',
     imgUrl: images.about01
   },
   {
     title: 'Web Design',
-    description: 'I am a good FrontEnd Developer',
-    imgUrl: images.about02
+    description: "I'm not a UX/UI designer, but I like to learn about design to improve as a Frontend Developer.",
+    imgUrl: images.about04
   },
   {
-    title: 'UI/UX',
-    description: 'I am a good FrontEnd Developer',
+    title: 'Backend Basics',
+    description: 'I am learning the basics of backend to become a FullStack Developer.',
     imgUrl: images.about03
   },
   {
-    title: 'Web Animations',
-    description: 'I am a good FrontEnd Developer',
-    imgUrl: images.about04
+    title: 'System Analyst',
+    description: 'I am studying Systems Analyst at IES 21 by distance learning.',
+    imgUrl: images.about05
   },
-] 
+];
 
 
 const About = () => {
@@ -34,11 +34,11 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I know that
-        <span> Good Development</span>
+        I Am
+        <span> Always Looking</span>
         <br />
-        means
-        <span> Good Business</span>
+        For New
+        <span> Challenges</span>
       </h2>
 
       <div className="app__profiles">

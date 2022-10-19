@@ -1,19 +1,19 @@
 import React from 'react';
-import { BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebook } from 'react-icons/fa';
+import { BsGithub, BsWhatsapp } from 'react-icons/bs';
+import { FaLinkedin } from 'react-icons/fa';
 
 const SocialMedia = () => {
   return (
     <div className='app__social'>
-      <div>
-        <BsTwitter />
-      </div>
-      <div>
-        <FaFacebook />
-      </div>
-      <div>
-        <BsInstagram />
-      </div>
+      <a href='https://www.linkedin.com/in/uziel-patron-50a474227/' target='_BLANK'>
+        <FaLinkedin />
+      </a>
+      <a href='https://github.com/UzielPatron' target='_BLANK'>
+        <BsGithub />
+      </a>
+      <a href='https://api.whatsapp.com/send?phone=542473519714' target='_BLANK'>
+        <BsWhatsapp />
+      </a>
     </div>
   )
 }

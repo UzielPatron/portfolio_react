@@ -105,7 +105,10 @@
 
   padding: 1rem;
 
-  div {
+  position: fixed;
+  bottom: 1rem;
+
+  a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -118,6 +121,8 @@
     align-items: center;
 
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
 
     svg {
       width: 15px;

@@ -55,18 +55,18 @@ const Footer = () => {
   
   return (
     <>
-      <h2 className='head-text'>Take a coffe & chat with me</h2>
+      <h2 className='head-text'>Contact Me</h2>
 
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <img src={ images.email } alt="email" />
-          <a href="mailto:uzielpatron2020@gmail.com" className='p-text'>
-            uzielpatron2020@gmail
+          <a href="mailto:uzielpatron2020@gmail.com?Subject=Quisiera%20ponerme%20en%20contacto%20contigo" target='_BLANK' className='p-text'>
+            uzielpatron2020@gmail.com
           </a>
         </div>
         <div className='app__footer-card'>
           <img src={ images.mobile } alt="mobile" />
-          <a href="tel: +54 (2473) 519714" className='p-text'>
+          <a href="https://api.whatsapp.com/send?phone=542473519714" target='_BLANK' className='p-text'>
             +54 (2473) 519714
           </a>
         </div>

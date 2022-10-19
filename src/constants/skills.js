@@ -12,7 +12,7 @@ import mongoDB from '../assets/mongoDB.png';
 
 const skills = [
   {
-    name: 'Html',
+    name: 'HTML',
     bgColor: '#edf2f8',
     icon: html,
   },
@@ -27,44 +27,19 @@ const skills = [
     icon: javascript,
   },
   {
-    name: 'React',
-    bgColor: '#edf2f8',
-    icon: react,
-  },
-  {
     name: 'TypeScript',
     bgColor: '#edf2f8',
     icon: typescript,
   },
   {
-    name: 'Redux',
+    name: 'React.JS',
     bgColor: '#edf2f8',
-    icon: redux,
+    icon: react,
   },
   {
-    name: 'SASS',
-    bgColor: '#edf2f8',
-    icon: sass,
-  },
-  {
-    name: 'React Native',
-    bgColor: '#edf2f8',
-    icon: reactNative,
-  },
-  {
-    name: 'Git',
-    bgColor: '#edf2f8',
-    icon: git,
-  },
-  {
-    name: 'Node',
+    name: 'Node.JS',
     bgColor: '#edf2f8',
     icon: node,
-  },
-  {
-    name: 'MongoDB',
-    bgColor: '#edf2f8',
-    icon: mongoDB,
   },
 ];
 

@@ -34,13 +34,13 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        My Creative
+        My
         <span> Portfolio </span>
         Section
       </h2>
 
       <div className='app__work-filter'>
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map( (item, idx) => (
+        {['Responsive Design', 'ReactJS + NodeJS', 'MERN', 'Public APIs', 'All'].map( (item, idx) => (
           <div
             key={ idx }
             onClick={ () => handleWorkFilter(item) }
@@ -87,7 +87,6 @@ const Work = () => {
                     rel='noreferrer'  
                   >
                     <motion.div
-                      // whileInView={{ scale: [0, 1] }}
                       whileHover={{ scale: [1, .9] }}
                       transition={{ duration: .25 }}
                       className='app__flex'
