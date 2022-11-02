@@ -58,21 +58,28 @@ const Footer = () => {
       <h2 className='head-text'>Contact Me</h2>
 
       <div className='app__footer-cards'>
-        <div className='app__footer-card'>
-          <img src={ images.email } alt="email" />
-          <a href="mailto:uzielpatron2020@gmail.com?Subject=Quisiera%20ponerme%20en%20contacto%20contigo" target='_BLANK' className='p-text'>
-            uzielpatron2020@gmail.com
-          </a>
-        </div>
-        <div className='app__footer-card'>
-          <img src={ images.mobile } alt="mobile" />
-          <a href="https://api.whatsapp.com/send?phone=542473519714" target='_BLANK' className='p-text'>
-            +54 (2473) 519714
-          </a>
-        </div>
+        <a
+          href="mailto:uzielpatron2020@gmail.com?Subject=Quisiera%20ponerme%20en%20contacto%20contigo"
+          target='_BLANK'
+          className='p-text'
+        >
+          <div className='app__footer-card'>
+            <img src={ images.email } alt="email" />
+            <p>uzielpatron2020@gmail.com</p>
+          </div>
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=542473519714"
+          target='_BLANK'
+          className='p-text'>
+          <div className='app__footer-card'>
+            <img src={ images.mobile } alt="mobile" />
+            <p>+54 (2473) 519714</p>
+          </div>
+        </a>
       </div>
 
-      {
+      {/* {
         !isFormSubmitted
           ? (
             <form className='app__footer-form app__flex' onSubmit={handleSubmit} >
@@ -123,7 +130,7 @@ const Footer = () => {
               <h3 className='head-text'>Gracias por ponerte en contacto</h3>
             </div>
           )
-      }
+      } */}
     </>
   )
 }

@@ -48,7 +48,7 @@ const Skills = () => {
                 <motion.div className='app__skills-exp-works'>
                   { 
                     exp.works.map( (work, idx) => (
-                      <>
+                      <div key={idx}>
                         <motion.div
                           whileInView={{ opacity: [ 0, 1 ] }}
                           transition={{ duration: .5 }}
@@ -68,7 +68,7 @@ const Skills = () => {
                         >
                           { work.desc }
                         </ReactTooltip>
-                      </>
+                      </div>
                     ) )
                   }
                 </motion.div>

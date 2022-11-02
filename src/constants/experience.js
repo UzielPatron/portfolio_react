@@ -10,7 +10,7 @@ const experience = [
       {
         name: 'FullStack Developer',
         company: 'Personal Projects',
-        desc: 'Learning react and doing personal projects in order to improve my skills.'
+        desc: 'I was learning react and C# .NET and doing personal projects to improve my skills.'
       },
     ],
   },
