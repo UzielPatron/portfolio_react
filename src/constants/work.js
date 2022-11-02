@@ -10,7 +10,7 @@ const work = [
     imgUrl: fresh,
     projectLink: 'https://fresh-e-commerce.netlify.app/',
     codeLink: 'https://github.com/UzielPatron/fresh-e-commerce-reactjs',
-    tags: [ 'ReactJS + NodeJS', 'Responsive Design', 'All' ],
+    tags: [ 'FullStack', 'Responsive Design', 'All' ],
   },
   {
     name: 'Movies App',
@@ -34,7 +34,7 @@ const work = [
     imgUrl: calendar,
     projectLink: 'https://my-mern-calendar-back-end.herokuapp.com/',
     codeLink: 'https://github.com/UzielPatron',
-    tags: [ 'MERN', 'ReactJS + NodeJS', 'All' ],
+    tags: [ 'MERN', 'FullStack', 'All' ],
   },
 ]
 

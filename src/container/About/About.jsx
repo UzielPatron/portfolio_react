@@ -8,18 +8,18 @@ import './About.scss';
 const abouts = [
   {
     title: 'FrontEnd Development',
-    description: 'I love frontend development and expanding my knowledge especially in React.JS',
+    description: 'I love frontend development and expanding my knowledge especially in React.JS.',
     imgUrl: images.about01
+  },
+  {
+    title: 'Backend Development',
+    description: 'Perfecting my knowledge as a backend developer with Node.js and, mainly, c# .NET.',
+    imgUrl: images.about03
   },
   {
     title: 'Web Design',
     description: "I'm not a UX/UI designer, but I like to learn about design to improve as a Frontend Developer.",
     imgUrl: images.about04
-  },
-  {
-    title: 'Backend Basics',
-    description: 'I am learning the basics of backend to become a FullStack Developer.',
-    imgUrl: images.about03
   },
   {
     title: 'System Analyst',

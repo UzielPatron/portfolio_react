@@ -3,12 +3,12 @@ const experience = [
     year: 2022,
     works: [
       {
-        name: 'Alkemy React Acceleration',
+        name: 'Alkemy Acceleration',
         company: 'Alkemy',
         desc: 'I am certifying my knowledge, skills and teamwork at Alkemy with the goal of achieving the Job Ready profile.'
       },
       {
-        name: 'React Developer',
+        name: 'FullStack Developer',
         company: 'Personal Projects',
         desc: 'Learning react and doing personal projects in order to improve my skills.'
       },

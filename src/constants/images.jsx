@@ -9,6 +9,8 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
+import csharp from '../assets/csharp.svg';
+import net from '../assets/net.png';
 
 import about01 from '../assets/about01.png';
 import about03 from '../assets/about03.png';
@@ -39,4 +41,6 @@ export default {
   profile,
   circle,
   logo,
+  csharp,
+  net
 };
