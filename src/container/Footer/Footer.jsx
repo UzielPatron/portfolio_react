@@ -55,7 +55,7 @@ const Footer = () => {
   
   return (
     <>
-      <h2 className='head-text'>Contact Me</h2>
+      <h2 className='head-text'>Contáctame</h2>
 
       <div className='app__footer-cards'>
         <a
@@ -78,61 +78,8 @@ const Footer = () => {
           </div>
         </a>
       </div>
-
-      {/* {
-        !isFormSubmitted
-          ? (
-            <form className='app__footer-form app__flex' onSubmit={handleSubmit} >
-              <div className='app__flex'>
-                <input
-                  type="text"
-                  className='p-text'
-                  placeholder='Tu nombre'
-                  name='name'
-                  value={ name }
-                  onChange={ handleChangeInput }
-                  required
-                />
-              </div>
-              <div className='app__flex'>
-                <input
-                  type="email"
-                  className='p-text'
-                  placeholder='Tu email'
-                  name='email'
-                  value={ email }
-                  onChange={ handleChangeInput }
-                  required
-                />
-              </div>
-              <div>
-                <textarea
-                  className='p-text'
-                  placeholder='Tu mensaje'
-                  name='message'
-                  value={ message }
-                  onChange={ handleChangeInput}
-                  required
-                />
-              </div>
-
-              <button type='submit' className='p-text' disabled={ loading }>
-                {
-                  loading
-                    ? 'Enviando'
-                    : 'Enviar'
-                }
-              </button>
-            </form>
-          )
-          : (
-            <div>
-              <h3 className='head-text'>Gracias por ponerte en contacto</h3>
-            </div>
-          )
-      } */}
     </>
   )
 }
 
-export default AppWrap(MotionWrap(Footer, 'app__footer'), 'contact', 'app__primarybg')
+export default AppWrap(MotionWrap(Footer, 'app__footer'), 'contacto', 'app__primarybg')
