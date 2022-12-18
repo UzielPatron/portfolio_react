@@ -34,13 +34,13 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        My
-        <span> Portfolio </span>
-        Section
+        Mis
+        <span> Trabajos </span>
+        
       </h2>
 
       <div className='app__work-filter'>
-        {['Responsive Design', 'FullStack', 'MERN', 'Public APIs', 'All'].map( (item, idx) => (
+        {['Responsive Design', 'FullStack', 'MERN', 'Public APIs', 'Todos'].map( (item, idx) => (
           <div
             key={ idx }
             onClick={ () => handleWorkFilter(item) }
@@ -58,7 +58,8 @@ const Work = () => {
       >
         { 
           filterWork.map( (work, idx) => (
-            <div key={ idx } className='app__work-item app__flex'>
+            <a href={work.projectLink}
+            target='_blank' key={ idx } className='app__work-item app__flex'>
               <div className='app__work-img app__flex'>
                 <img src={ work.imgUrl } alt={ work.name } />
                 
@@ -108,7 +109,7 @@ const Work = () => {
                 </div>
 
               </div>
-            </div>
+            </a>
           ) )
         }
       </motion.div>

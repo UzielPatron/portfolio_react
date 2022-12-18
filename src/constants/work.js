@@ -6,35 +6,35 @@ import calendar from '../assets/project4.png';
 const work = [
   {
     name: 'Fresh E-Commerce',
-    description: 'Complete, functional and fully responsive e-commerce created with React.Js, Node.js, Strapi and MongoDB.',
+    description: 'Completo, funcional y full responsive E-Commerce creado con React.Js, Node.js, Strapi y MongoDB.',
     imgUrl: fresh,
     projectLink: 'https://fresh-e-commerce.netlify.app/',
     codeLink: 'https://github.com/UzielPatron/fresh-e-commerce-reactjs',
-    tags: [ 'FullStack', 'Responsive Design', 'All' ],
+    tags: [ 'FullStack', 'Responsive Design', 'Todos' ],
   },
   {
     name: 'Movies App',
-    description: 'A web app for movies and series with React and Sass, implementing the TMDB API.',
+    description: 'Una web app de películas y series con React y Sass, implementando la API de TMDB.',
     imgUrl: movies,
     projectLink: 'https://moviesapp-uzielpatron.netlify.app/',
     codeLink: 'https://github.com/UzielPatron/react-movie',
-    tags: [ 'Public APIs', 'Responsive Design', 'All'  ],
+    tags: [ 'Public APIs', 'Responsive Design', 'Todos'  ],
   },
   {
     name: 'Lyriks Music Player',
-    description: 'Spotify-like music player with React and Tailwind CSS',
+    description: 'Reproductor de música tipo Spotify creado con React y Tailwind CSS',
     imgUrl: lyriks,
     projectLink: 'https://lyriks-app-uzielpatron.netlify.app/',
     codeLink: 'https://github.com/UzielPatron/lyriks-music-player',
-    tags: [ 'Public APIs', 'Responsive Design', 'All'  ],
+    tags: [ 'Public APIs', 'Responsive Design', 'Todos'  ],
   },
   {
     name: 'MERN Calendar',
-    description: 'Calendar application built with React, Node.js, Express and MongoDB',
+    description: 'Aplicación de calendario construida con React, Node.js, Express y MongoDB',
     imgUrl: calendar,
     projectLink: 'https://my-mern-calendar-back-end.herokuapp.com/',
     codeLink: 'https://github.com/UzielPatron',
-    tags: [ 'MERN', 'FullStack', 'All' ],
+    tags: [ 'MERN', 'FullStack', 'Todos' ],
   },
 ]
 
