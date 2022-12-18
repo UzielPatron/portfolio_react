@@ -7,23 +7,23 @@ import './About.scss';
 
 const abouts = [
   {
-    title: 'FrontEnd Development',
-    description: 'I love frontend development and expanding my knowledge especially in React.JS.',
+    title: 'Desarrollo FrontEnd',
+    description: 'Me encanta el desarrollo Frontend con React y crear espectaculares diseños web',
     imgUrl: images.about01
   },
   {
-    title: 'Backend Development',
-    description: 'Perfecting my knowledge as a backend developer with Node.js and, mainly, c# .NET.',
+    title: 'Desarrollo Backend',
+    description: 'Perfeccionando mis conocimientos en backend con C# .NET y Node JS',
     imgUrl: images.about03
   },
   {
-    title: 'Web Design',
-    description: "I'm not a UX/UI designer, but I like to learn about design to improve as a Frontend Developer.",
+    title: 'Diseño UX/UI',
+    description: "Me gusta aprender sobre diseño UI/UX para mejorar mis capacidades como Frontend Developer",
     imgUrl: images.about04
   },
   {
-    title: 'System Analyst',
-    description: 'I am studying Systems Analyst at IES 21 by distance learning.',
+    title: 'Analista de Sistemas',
+    description: 'Soy estudiante de la carrera Analista de Sistemas en el Colegio Universitario IES 21, de Córdoba a distancia',
     imgUrl: images.about05
   },
 ];
@@ -34,11 +34,11 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Am
-        <span> Always Looking</span>
+        Siempre
+        <span> Buscando</span>
         <br />
-        For New
-        <span> Challenges</span>
+        Nuevos
+        <span> Retos</span>
       </h2>
 
       <div className="app__profiles">
