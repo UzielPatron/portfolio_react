@@ -3,14 +3,19 @@ const experience = [
     year: 2022,
     works: [
       {
-        name: 'Alkemy Acceleration',
+        name: 'Aceleración Alkemy C# .NET',
         company: 'Alkemy',
-        desc: 'I am certifying my knowledge, skills and teamwork at Alkemy with the goal of achieving the Job Ready profile.'
+        desc: 'Certifiqué y perfeccioné mis conocimientos en Backend con C# .NET, en la creación de una API profesional en conjunto con mi equipo. También tuve la oportunidad de desarrollar mis soft skills y trabajar bajo la metodología SCRUM.'
+      },
+      {
+        name: 'Aceleración Alkemy React',
+        company: 'Alkemy',
+        desc: 'Certifiqué mis habilidades como Frontend con React durante dos meses de entrenamiento en los que se trabajaron junto con compañeros en equipos para desarrollar un Ecommerce profesional y completo en React bajo la metodología SCRUM.'
       },
       {
         name: 'FullStack Developer',
-        company: 'Personal Projects',
-        desc: 'I was learning react and C# .NET and doing personal projects to improve my skills.'
+        company: 'Proyectos personales',
+        desc: 'Estuve aprendiendo React y C# .NET a medida que hacía proyectos personales para mejorar mis habilidades.'
       },
     ],
   },
@@ -19,8 +24,8 @@ const experience = [
     works: [
       {
         name: 'JavaScript Developer',
-        company: 'Personal Projects',
-        desc: 'In 2021 I started to get deeply interested in programming, starting by learning HTML, CSS and JavaScript and doing personal projects to deepen my knowledge.'
+        company: 'Proyectos personales',
+        desc: 'En 2021 empecé a interesarme profundamente por la programación, empezando por aprender HTML, CSS y JavaScript y realizando proyectos personales para profundizar en mis conocimientos.'
       },
     ],
   },

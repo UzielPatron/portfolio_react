@@ -1,58 +1,51 @@
-import html from '../assets/html.png';
-import css from '../assets/css.png';
-import javascript from '../assets/javascript.png';
-import react from '../assets/react.png';
-import typescript from '../assets/typescript.png';
-import csharp from '../assets/csharp.svg';
-import node from '../assets/node.png';
-import net from '../assets/net.png';
-// import redux from '../assets/redux.png';
-// import sass from '../assets/sass.png';
-// import reactNative from '../assets/reactNative.png';
-// import git from '../assets/git.png';
-// import mongoDB from '../assets/mongoDB.png';
+import images from "./images";
 
 const skills = [
   {
     name: 'HTML',
     bgColor: '#edf2f8',
-    icon: html,
+    icon: images.html,
   },
   {
     name: 'CSS',
     bgColor: '#edf2f8',
-    icon: css,
+    icon: images.css,
   },
   {
     name: 'JavaScript',
     bgColor: '#edf2f8',
-    icon: javascript,
+    icon: images.javascript,
   },
-  // {
-  //   name: 'TypeScript',
-  //   bgColor: '#edf2f8',
-  //   icon: typescript,
-  // },
   {
     name: 'React.JS',
     bgColor: '#edf2f8',
-    icon: react,
+    icon: images.react,
+  },
+  {
+    name: 'Redux',
+    bgColor: '#edf2f8',
+    icon: images.redux,
+  },
+  {
+    name: 'Sass',
+    bgColor: '#edf2f8',
+    icon: images.sass,
   },
   {
     name: "C#",
     bgColor: '#edf2f8',
-    icon: csharp
+    icon: images.csharp
   },
   {
-    name: ":NET",
+    name: ".NET",
     bgColor: '#edf2f8',
-    icon: net
+    icon: images.net
   },
-  // {
-  //   name: 'Node.JS',
-  //   bgColor: '#edf2f8',
-  //   icon: node,
-  // },
+  {
+    name: "GIT",
+    bgColor: '#edf2f8',
+    icon: images.git
+  },
 ];
 
 export default skills;
