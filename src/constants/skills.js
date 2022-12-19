@@ -22,6 +22,11 @@ const skills = [
     icon: images.react,
   },
   {
+    name: 'TypeScript',
+    bgColor: '#edf2f8',
+    icon: images.typescript,
+  },
+  {
     name: 'Redux',
     bgColor: '#edf2f8',
     icon: images.redux,
